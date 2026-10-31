@@ -1,0 +1,675 @@
+# Copyright (C) 2026 bin zhan
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Tiny Editorial Text Only 1.3.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/editorialplus\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-07-09T07:42:33+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: editorialplus\n"
+
+#. Theme Name of the theme
+#: style.css
+msgid "Tiny Editorial Text Only"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "A clean text-first classic editorial theme with restrained black, white, and grey typography. It avoids theme-level SEO, schema, AJAX, dark mode, and image-driven layout assumptions."
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "bin zhan"
+msgstr ""
+
+#: 404.php:17
+msgid "This page could not be found."
+msgstr ""
+
+#: 404.php:18
+msgid "It may have moved, or the address may be incorrect. Search the site or return to the home page."
+msgstr ""
+
+#. translators: %s: number of comments.
+#: comments.php:22
+#, php-format
+msgctxt "comments title"
+msgid "%1$s comment"
+msgid_plural "%1$s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:41
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:20
+#: inc/customizer.php:42
+msgid "A quiet editorial theme for publications, schools, studios, and long-form websites."
+msgstr ""
+
+#: footer.php:26
+msgid "Social"
+msgstr ""
+
+#: footer.php:27
+msgid "Social links"
+msgstr ""
+
+#: footer.php:42
+msgid "Explore"
+msgstr ""
+
+#: footer.php:44
+msgid "Footer menu"
+msgstr ""
+
+#: footer.php:67
+msgid "Contact"
+msgstr ""
+
+#: footer.php:88
+msgid "Footer widgets"
+msgstr ""
+
+#. translators: %s: site name.
+#: footer.php:111
+#, php-format
+msgid "© %1$s %2$s"
+msgstr ""
+
+#: footer.php:119
+msgid "Footer navigation"
+msgstr ""
+
+#: footer.php:137
+msgid "Scroll to top"
+msgstr ""
+
+#: header.php:22
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:39
+#: inc/setup.php:73
+msgid "Primary Menu"
+msgstr ""
+
+#: header.php:53
+#: inc/customizer.php:30
+msgid "Subscribe"
+msgstr ""
+
+#: header.php:63
+#: inc/enqueue.php:46
+msgid "Open menu"
+msgstr ""
+
+#: inc/customizer.php:21
+msgid "Tiny Editorial Options"
+msgstr ""
+
+#: inc/customizer.php:23
+msgid "Simple options for the header, footer, and text-first reading layout."
+msgstr ""
+
+#: inc/customizer.php:29
+msgid "Header CTA label"
+msgstr ""
+
+#: inc/customizer.php:35
+msgid "Header CTA URL"
+msgstr ""
+
+#: inc/customizer.php:41
+msgid "Footer description"
+msgstr ""
+
+#: inc/customizer.php:47
+msgid "Footer address"
+msgstr ""
+
+#: inc/customizer.php:53
+msgid "Footer phone"
+msgstr ""
+
+#: inc/customizer.php:59
+msgid "Footer email"
+msgstr ""
+
+#: inc/customizer.php:65
+msgid "Footer hours"
+msgstr ""
+
+#: inc/customizer.php:71
+msgid "Footer copyright text"
+msgstr ""
+
+#: inc/customizer.php:77
+msgid "Related posts count"
+msgstr ""
+
+#: inc/customizer.php:83
+msgid "Home Editorial: latest stories title"
+msgstr ""
+
+#: inc/customizer.php:84
+#: page-templates/home-editorial.php:71
+msgid "Latest Stories"
+msgstr ""
+
+#: inc/customizer.php:89
+msgid "Home Editorial: essays label"
+msgstr ""
+
+#: inc/customizer.php:90
+#: inc/customizer.php:102
+#: page-templates/home-editorial.php:107
+#: page-templates/home-editorial.php:148
+msgid "Category"
+msgstr ""
+
+#: inc/customizer.php:95
+msgid "Home Editorial: essays title"
+msgstr ""
+
+#: inc/customizer.php:96
+#: page-templates/home-editorial.php:108
+msgid "Essays & Literature"
+msgstr ""
+
+#: inc/customizer.php:101
+msgid "Home Editorial: reviews label"
+msgstr ""
+
+#: inc/customizer.php:107
+msgid "Home Editorial: reviews title"
+msgstr ""
+
+#: inc/customizer.php:108
+#: page-templates/home-editorial.php:149
+msgid "Critical Reviews"
+msgstr ""
+
+#: inc/customizer.php:113
+msgid "Home Editorial: issue kicker"
+msgstr ""
+
+#: inc/customizer.php:114
+#: page-templates/home-editorial.php:194
+msgid "Current Issue"
+msgstr ""
+
+#: inc/customizer.php:119
+msgid "Home Editorial: issue title"
+msgstr ""
+
+#: inc/customizer.php:120
+#: page-templates/home-editorial.php:195
+msgid "Table of Contents"
+msgstr ""
+
+#: inc/customizer.php:125
+msgid "Home Editorial: issue description"
+msgstr ""
+
+#: inc/customizer.php:126
+#: page-templates/home-editorial.php:196
+msgid "A selection of featured articles curated for this issue."
+msgstr ""
+
+#: inc/customizer.php:131
+msgid "Home Stream: marquee label"
+msgstr ""
+
+#: inc/customizer.php:132
+#: page-templates/home-stream.php:42
+msgid "Editor's Pick"
+msgstr ""
+
+#: inc/customizer.php:137
+msgid "Home Stream: leads title"
+msgstr ""
+
+#: inc/customizer.php:138
+#: page-templates/home-stream.php:71
+msgid "Top Stories"
+msgstr ""
+
+#: inc/customizer.php:143
+msgid "Home Stream: more reading title"
+msgstr ""
+
+#: inc/customizer.php:144
+#: page-templates/home-stream.php:149
+msgid "More to Read"
+msgstr ""
+
+#: inc/customizer.php:149
+msgid "Home Mosaic: grid label"
+msgstr ""
+
+#: inc/customizer.php:150
+#: page-templates/home-mosaic.php:85
+msgid "Latest"
+msgstr ""
+
+#: inc/customizer.php:155
+msgid "Home Mosaic: grid title"
+msgstr ""
+
+#: inc/customizer.php:156
+#: page-templates/home-mosaic.php:86
+msgid "Recent Stories"
+msgstr ""
+
+#: inc/customizer.php:161
+msgid "Home Mosaic: spotlight label"
+msgstr ""
+
+#: inc/customizer.php:162
+#: page-templates/home-mosaic.php:123
+msgid "In Depth"
+msgstr ""
+
+#: inc/customizer.php:167
+msgid "Home Mosaic: spotlight title"
+msgstr ""
+
+#: inc/customizer.php:168
+#: page-templates/home-mosaic.php:124
+msgid "Essays & Analysis"
+msgstr ""
+
+#: inc/customizer.php:173
+msgid "Home Mosaic: archive label"
+msgstr ""
+
+#: inc/customizer.php:174
+#: page-templates/home-mosaic.php:186
+msgid "More Reading"
+msgstr ""
+
+#: inc/customizer.php:179
+msgid "Home Mosaic: archive title"
+msgstr ""
+
+#: inc/customizer.php:180
+#: page-templates/home-mosaic.php:187
+msgid "From the Archive"
+msgstr ""
+
+#: inc/customizer.php:209
+msgid "Editorial home: Essays category"
+msgstr ""
+
+#: inc/customizer.php:210
+msgid "Editorial home: Reviews category"
+msgstr ""
+
+#: inc/customizer.php:227
+msgid "Leave unselected to show a configuration note instead of mixing unrelated latest posts."
+msgstr ""
+
+#: inc/customizer.php:233
+msgid "Show header CTA"
+msgstr ""
+
+#: inc/customizer.php:234
+msgid "Show breadcrumbs"
+msgstr ""
+
+#: inc/customizer.php:235
+msgid "Show related posts on single posts"
+msgstr ""
+
+#: inc/customizer.php:236
+msgid "Show author box on single posts"
+msgstr ""
+
+#: inc/customizer.php:237
+msgid "Show scroll-to-top button"
+msgstr ""
+
+#: inc/customizer.php:238
+msgid "Load Google Fonts"
+msgstr ""
+
+#: inc/customizer.php:239
+msgid "Enable smooth scroll-to-top behavior"
+msgstr ""
+
+#: inc/enqueue.php:47
+msgid "Close menu"
+msgstr ""
+
+#: inc/enqueue.php:49
+#: page-templates/template-elements.php:53
+msgid "Copy HTML"
+msgstr ""
+
+#: inc/enqueue.php:50
+msgid "Copied"
+msgstr ""
+
+#: inc/enqueue.php:51
+msgid "Select and copy manually"
+msgstr ""
+
+#: inc/setup.php:54
+msgid "Ink"
+msgstr ""
+
+#: inc/setup.php:59
+msgid "Paper"
+msgstr ""
+
+#: inc/setup.php:64
+msgid "Mid Grey"
+msgstr ""
+
+#: inc/setup.php:74
+msgid "Footer Menu"
+msgstr ""
+
+#: inc/setup.php:75
+msgid "Social Links Menu"
+msgstr ""
+
+#: inc/setup.php:95
+msgid "Sidebar"
+msgstr ""
+
+#: inc/setup.php:97
+msgid "Widgets shown beside archive, search, and standard pages."
+msgstr ""
+
+#. translators: %d: footer widget area number.
+#: inc/setup.php:109
+#, php-format
+msgid "Footer Column %d"
+msgstr ""
+
+#: inc/setup.php:111
+msgid "Footer widget column."
+msgstr ""
+
+#: inc/setup.php:122
+msgid "Home After Hero"
+msgstr ""
+
+#: inc/setup.php:124
+msgid "Optional homepage widget area shown after the primary hero section."
+msgstr ""
+
+#: inc/setup.php:134
+msgid "Home Before Footer"
+msgstr ""
+
+#: inc/setup.php:136
+msgid "Optional homepage widget area shown before the footer."
+msgstr ""
+
+#: inc/snippets.php:503
+msgid "General"
+msgstr ""
+
+#: inc/template-functions.php:17
+#: inc/template-functions.php:254
+msgid "Home"
+msgstr ""
+
+#: inc/template-functions.php:191
+msgid "(Untitled)"
+msgstr ""
+
+#: inc/template-functions.php:253
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/template-functions.php:258
+msgid "Blog"
+msgstr ""
+
+#: inc/template-functions.php:262
+#: searchform.php:18
+msgid "Search"
+msgstr ""
+
+#: inc/template-functions.php:264
+msgid "Not Found"
+msgstr ""
+
+#: inc/template-functions.php:319
+msgid "Related reading"
+msgstr ""
+
+#: inc/template-functions.php:346
+msgid "Author information"
+msgstr ""
+
+#: inc/template-functions.php:356
+msgid "Contributor and writer. View all posts to discover more of their work."
+msgstr ""
+
+#: inc/template-tags.php:42
+msgid "By"
+msgstr ""
+
+#. translators: %d: estimated reading minutes.
+#: inc/template-tags.php:73
+#, php-format
+msgid "%d min read"
+msgstr ""
+
+#: inc/template-tags.php:83
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:85
+msgid "Filed under"
+msgstr ""
+
+#: inc/template-tags.php:88
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:90
+msgid "Tagged"
+msgstr ""
+
+#: inc/template-tags.php:97
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/template-tags.php:98
+msgid "1 Comment"
+msgstr ""
+
+#: inc/template-tags.php:99
+msgid "% Comments"
+msgstr ""
+
+#: inc/template-tags.php:105
+#: template-parts/content-page.php:29
+msgid "Edit"
+msgstr ""
+
+#: inc/template-tags.php:118
+#: single.php:26
+msgid "Previous"
+msgstr ""
+
+#: inc/template-tags.php:119
+#: single.php:27
+msgid "Next"
+msgstr ""
+
+#: index.php:17
+msgid "Journal"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Home Editorial"
+msgstr ""
+
+#: page-templates/home-editorial.php:58
+#: page-templates/home-mosaic.php:168
+msgid "Read Article"
+msgstr ""
+
+#: page-templates/home-editorial.php:65
+#: page-templates/home-mosaic.php:73
+#: page-templates/home-stream.php:59
+msgid "Publish your first post to fill this home section."
+msgstr ""
+
+#: page-templates/home-editorial.php:89
+msgid "More stories will appear here after you publish additional posts."
+msgstr ""
+
+#: page-templates/home-editorial.php:139
+msgid "Choose an essays category in Customizer to fill this section."
+msgstr ""
+
+#: page-templates/home-editorial.php:180
+msgid "Choose a reviews category in Customizer to fill this section."
+msgstr ""
+
+#: page-templates/home-editorial.php:221
+msgid "The table of contents will appear after posts are published."
+msgstr ""
+
+#. Template Name of the theme
+msgid "Home Mosaic"
+msgstr ""
+
+#: page-templates/home-mosaic.php:111
+msgid "Recent stories will appear here after you publish additional posts."
+msgstr ""
+
+#: page-templates/home-mosaic.php:141
+msgid "More in-depth stories will appear here after additional posts are published."
+msgstr ""
+
+#: page-templates/home-mosaic.php:175
+msgid "A spotlight article will appear here after more posts are published."
+msgstr ""
+
+#: page-templates/home-mosaic.php:207
+msgid "Archive links will appear here after more posts are published."
+msgstr ""
+
+#. Template Name of the theme
+msgid "Home Stream"
+msgstr ""
+
+#: page-templates/home-stream.php:52
+msgid "Read Essay"
+msgstr ""
+
+#: page-templates/home-stream.php:99
+msgid "Top stories will appear here after more posts are published."
+msgstr ""
+
+#: page-templates/home-stream.php:132
+msgid "Continue Reading"
+msgstr ""
+
+#: page-templates/home-stream.php:141
+msgid "A wide feature will appear here after more posts are published."
+msgstr ""
+
+#: page-templates/home-stream.php:171
+msgid "More reading links will appear here after additional posts are published."
+msgstr ""
+
+#. Template Name of the theme
+msgid "Editorial About Page"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Editorial Canvas"
+msgstr ""
+
+#. Template Name of the theme
+#: page-templates/template-elements.php:19
+msgid "Elements Library"
+msgstr ""
+
+#: page-templates/template-elements.php:18
+msgid "Classic Editor Kit"
+msgstr ""
+
+#: page-templates/template-elements.php:20
+msgid "Copy these HTML sections into an Editorial Canvas page using the Classic Editor Text tab. Replace text and links, but keep the classes for the theme styling."
+msgstr ""
+
+#: page-templates/template-elements.php:21
+msgid "How to use this library"
+msgstr ""
+
+#: page-templates/template-elements.php:23
+msgid "Create or edit a page."
+msgstr ""
+
+#: page-templates/template-elements.php:24
+msgid "Choose the Editorial Canvas template."
+msgstr ""
+
+#: page-templates/template-elements.php:25
+msgid "Paste a snippet in the Classic Editor Text/HTML tab."
+msgstr ""
+
+#. Template Name of the theme
+msgid "Full Width Page"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Editorial Landing Page"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Editorial Columns Page"
+msgstr ""
+
+#. translators: %s: search query.
+#: search.php:21
+#, php-format
+msgid "Search results for: %s"
+msgstr ""
+
+#: searchform.php:15
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:16
+msgid "Search …"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing found"
+msgstr ""
+
+#: template-parts/content-none.php:16
+msgid "Try a search or browse the latest posts."
+msgstr ""
+
+#: template-parts/content-page.php:22
+#: template-parts/content-single.php:43
+msgid "Pages:"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers.
+#: template-parts/content-single.php:35
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""

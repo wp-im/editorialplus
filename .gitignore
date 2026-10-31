@@ -1,0 +1,14 @@
+/node_modules/
+/vendor/
+/build/
+/site-content/
+/docs/
+.env
+.env.*
+*.sql
+*.sqlite
+*.db
+*.pem
+*.key
+*.log
+.DS_Store

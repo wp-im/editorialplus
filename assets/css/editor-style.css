@@ -1,0 +1,6 @@
+body { background: #fff; color: #1c1c1e; font-family: system-ui, sans-serif; font-size: 17px; line-height: 1.6; }
+h1, h2, h3, h4, h5, h6 { font-family: inherit; font-weight: 600; line-height: 1.2; letter-spacing: -.02em; }
+a { color: #0066cc; text-underline-offset: .18em; }
+blockquote { border-left: 2px solid #0066cc; padding-left: 1rem; font-family: inherit; }
+table { border-collapse: collapse; width: 100%; }
+th, td { border: 1px solid #c7c7cc; padding: .7rem .8rem; }
