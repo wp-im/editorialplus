@@ -1,6 +1,13 @@
 <?php
-/** Shared Home Editorial sections. */
-if ( ! defined( 'ABSPATH' ) ) { exit; }
+/**
+ * Shared Home Editorial sections.
+ *
+ * @package Tiny_Editorial_Text_Only
+ */
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
 $showcase = ! empty( $args['showcase'] );
 ?>
 <!-- Hero feature and latest stories. -->
@@ -83,7 +90,11 @@ $showcase = ! empty( $args['showcase'] );
 	</div>
 </section>
 
-<?php if ( ! $showcase ) { tiny_editorial_render_widget_area( 'home-after-hero', 'home-widget-area home-widget-area--after-hero' ); } ?>
+<?php
+if ( ! $showcase ) {
+	tiny_editorial_render_widget_area( 'home-after-hero', 'home-widget-area home-widget-area--after-hero' );
+}
+?>
 
 <!-- Category sections. -->
 <section class="editorial-section">

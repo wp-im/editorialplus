@@ -1,6 +1,13 @@
 <?php
-/** Shared Home Stream sections. */
-if ( ! defined( 'ABSPATH' ) ) { exit; }
+/**
+ * Shared Home Stream sections.
+ *
+ * @package Tiny_Editorial_Text_Only
+ */
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
 $showcase = ! empty( $args['showcase'] );
 ?>
 <?php $stream_used_ids = array(); ?>
@@ -47,7 +54,11 @@ $showcase = ! empty( $args['showcase'] );
 	</div>
 </section>
 
-<?php if ( ! $showcase ) { tiny_editorial_render_widget_area( 'home-after-hero', 'home-widget-area home-widget-area--after-hero' ); } ?>
+<?php
+if ( ! $showcase ) {
+	tiny_editorial_render_widget_area( 'home-after-hero', 'home-widget-area home-widget-area--after-hero' );
+}
+?>
 
 <!-- Numbered lead stories. -->
 <section class="editorial-section stream-leads">

@@ -3,7 +3,7 @@ Contributors: binzhan
 Requires at least: 6.0
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.4.0
+Stable tag: 1.4.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Tags: blog, education, news, custom-menu, footer-widgets, right-sidebar, threaded-comments, translation-ready
@@ -32,6 +32,9 @@ This package bundles no stock photography and no remote demo images. The include
 The theme does not collect analytics, does not set tracking cookies, and does not store front-end user preferences. The theme does not request external font files.
 
 == Changelog ==
+= 1.4.1 =
+* Prime category caches for the long home and avoid extra post fetching. Consolidate an equivalent mobile menu rule.
+
 = 1.4.0 =
 * Added a long article-led homepage with nine editorial arrangements of real posts. The original three home templates remain available separately.
 * Added soft blue, green, and yellow section bands with system sans-serif typography.

@@ -18,10 +18,10 @@ This edition uses system typography with pale blue, green, and yellow section ba
 
 ## Install
 
-Upload `build/editorialplus-1.4.0.zip` through WordPress Network Admin, enable it for the intended site, then activate it there. Choose a static front page using the **Long Editorial Home** or **Home Editorial** page template. Posts, page content, menus, and Customizer settings belong to the WordPress site and are separate from the theme package.
+Upload `build/editorialplus-1.4.1.zip` through WordPress Network Admin, enable it for the intended site, then activate it there. Choose a static front page using the **Long Editorial Home** or **Home Editorial** page template. Posts, page content, menus, and Customizer settings belong to the WordPress site and are separate from the theme package.
 
 The theme uses system fonts, produces no automatic featured images, and does not request external font files. It provides Classic Editor starter HTML in `starter-html/`. See `docs/user-manual-zh.md` for page and template usage.
 
 ## Source and validation
 
-The theme source is in this directory. `site-content/` contains local import files and is excluded from Git. The 1.4.0 source was checked with PHP syntax validation, Stylelint, JavaScript syntax checking, WordPress Studio runtime pages, and desktop/mobile overflow checks. Historical development notes under `docs/` describe earlier versions and should not be read as current release acceptance.
+The theme source is in this directory. `site-content/` contains local import files and is excluded from Git. The 1.4.1 source was checked with PHP syntax validation, Stylelint, JavaScript syntax checking, WordPress Studio runtime pages, and desktop/mobile overflow checks. Historical development notes under `docs/` describe earlier versions and should not be read as current release acceptance.

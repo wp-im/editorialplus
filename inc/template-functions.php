@@ -133,7 +133,7 @@ function tiny_editorial_get_home_posts( $count, $used_ids = array(), $args = arr
 		wp_parse_args(
 			$args,
 			array(
-				'posts_per_page' => $count + count( $used_ids ) + 4,
+				'posts_per_page' => $count + count( $used_ids ),
 			)
 		)
 	);

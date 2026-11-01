@@ -1,7 +1,7 @@
 /*
 Theme Name: Editorial Plus
 Description: A text-only editorial theme with restrained pastel section bands, system typography, and nine article-led home sections.
-Version: 1.4.0
+Version: 1.4.1
 Author: bin zhan
 Text Domain: editorialplus
 Domain Path: /languages
@@ -124,9 +124,8 @@ small, .entry-meta, .entry-footer, .breadcrumbs, .editorial-kicker { font-size: 
 	html.js .primary-menu,
 	html.js .primary-menu.open { position: fixed; top: 0; right: 0; width: min(82vw, 340px); height: 100dvh; padding: 5.5rem 1.45rem 2rem; display: block; background: var(--tec-paper); border-left: 1px solid var(--tec-rule-strong); box-shadow: -18px 0 48px rgba(0,0,0,.18); z-index: 1210; overflow-y: auto; overscroll-behavior: contain; transition: opacity .22s ease, visibility .22s ease; }
 	html.js .primary-menu { display: none; opacity: 0; visibility: hidden; }
-	html.js .primary-menu.open { display: block; opacity: 1; visibility: visible; }
+	html.js .primary-menu.open { display: block; opacity: 1; visibility: visible; pointer-events: auto; }
 	html.js .primary-menu:not(.open) { pointer-events: none; }
-	html.js .primary-menu.open { pointer-events: auto; }
 	.primary-menu .menu { display: block; width: 100%; }
 	.primary-menu a { width: 100%; padding: .86rem 0; border-bottom: 1px solid var(--tec-rule); overflow-wrap: anywhere; }
 	.primary-menu .sub-menu { position: static; display: block; padding: 0 0 0 1rem; border: 0; box-shadow: none; background: transparent; }

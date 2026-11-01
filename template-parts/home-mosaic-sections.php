@@ -1,6 +1,13 @@
 <?php
-/** Shared Home Mosaic sections. */
-if ( ! defined( 'ABSPATH' ) ) { exit; }
+/**
+ * Shared Home Mosaic sections.
+ *
+ * @package Tiny_Editorial_Text_Only
+ */
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
 $showcase = ! empty( $args['showcase'] );
 ?>
 <?php
@@ -62,7 +69,11 @@ $hero_id    = ! empty( $sticky_ids ) ? $sticky_ids[0] : 0;
 	</div>
 </section>
 
-<?php if ( ! $showcase ) { tiny_editorial_render_widget_area( 'home-after-hero', 'home-widget-area home-widget-area--after-hero' ); } ?>
+<?php
+if ( ! $showcase ) {
+	tiny_editorial_render_widget_area( 'home-after-hero', 'home-widget-area home-widget-area--after-hero' );
+}
+?>
 
 <!-- Mosaic grid. -->
 <section class="editorial-section mosaic-grid-section">
